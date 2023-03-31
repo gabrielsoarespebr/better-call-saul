@@ -1,0 +1,8 @@
+:root{
+    --grayDark: rgb(63, 63, 63);
+    --blackLight:#242424;
+}
+
+body {
+    background-color: var(--blackLight);
+}

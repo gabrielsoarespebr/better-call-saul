@@ -1,1 +1,10 @@
-  /* background-color: #242424; */
+/* RESET CSS */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

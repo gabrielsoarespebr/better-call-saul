@@ -2,3 +2,7 @@ header {
     background: url("./src/assets/images/BackgroundYellowComics.png") no-repeat;
     background-size: cover;
 }
+
+.logo {
+    filter: drop-shadow(var(--grayDark) 0 0 5px);
+}
