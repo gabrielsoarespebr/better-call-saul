@@ -1,6 +1,10 @@
-:root{
+:root {
     --grayDark: rgb(63, 63, 63);
-    --blackLight:#242424;
+    --blackLight: #242424;
+    --yellowLight: #FFFF30;
+    --yellowDark: #737316;
+    --redLight: #FF3030;
+    --redDark: #731616;
 }
 
 body {

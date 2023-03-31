@@ -4,5 +4,19 @@ header {
 }
 
 .logo {
-    filter: drop-shadow(var(--grayDark) 0 0 5px);
+    filter: drop-shadow(var(--grayDark) 0 0 3px);
+}
+
+.navIcon {
+    background-color: var(--redLight);
+    border: 2px solid var(--redDark);
+    filter: drop-shadow(var(--grayDark) 0 0 2px);
+
+    /* OVERRIDING BOOTSTRAP */
+    --bs-navbar-toggler-focus-width: 0;
+}
+
+.navIcon:hover {
+    background-color: var(--yellowLight);
+    border: 2px solid var(--yellowDark);
 }

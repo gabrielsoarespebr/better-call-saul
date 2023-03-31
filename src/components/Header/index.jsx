@@ -11,10 +11,9 @@ export const Header = () => {
 
             <Navbar expand="lg">
                 <Container>
-                    {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
-                    <Navbar.Toggle className='bg-danger border-3 border-dark' aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle className={`${style.navIcon}`} aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
+                        <Nav className="me-auto fw-bold">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#link">Link</Nav.Link>
                             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
