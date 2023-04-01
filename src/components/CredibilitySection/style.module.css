@@ -1,0 +1,12 @@
+.section {
+    background: linear-gradient(90deg, var(--redDark) 40%, var(--redLight));
+}
+
+.text {
+    background: linear-gradient(white, var(--yellowLight) 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    filter: drop-shadow(black 0 0 2px);
+}

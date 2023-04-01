@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/primer-preschoolers');
+
 :root {
     --grayDark: rgb(63, 63, 63);
     --blackLight: #242424;
@@ -9,4 +11,5 @@
 
 body {
     background-color: var(--blackLight);
+    font-family: 'Primer Preschoolers', sans-serif;
 }
