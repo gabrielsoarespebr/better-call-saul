@@ -29,7 +29,6 @@ export const CredibilitySection = () => {
                 <div className="display-3">5&#9733;</div>
                 <div className="fs-4">AVALIAÇÕES DO GOOGLE</div>
             </div>
-
         </section>
     )
 }

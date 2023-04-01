@@ -2,9 +2,14 @@
 
 :root {
     --grayDark: rgb(63, 63, 63);
+    --grayShadow: var(--grayDark) 0 0 2px;
+
     --blackLight: #242424;
+    --blackShadow: black 0 0 2px;
+
     --yellowLight: #FFFF30;
     --yellowDark: #737316;
+
     --redLight: #FF3030;
     --redDark: #731616;
 }

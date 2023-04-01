@@ -8,5 +8,5 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    filter: drop-shadow(black 0 0 2px);
+    filter: drop-shadow(var(--blackShadow));
 }

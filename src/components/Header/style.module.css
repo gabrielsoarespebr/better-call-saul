@@ -10,7 +10,7 @@ header {
 .navIcon {
     background-color: var(--redLight);
     border: 2px solid var(--redDark);
-    filter: drop-shadow(var(--grayDark) 0 0 2px);
+    filter: drop-shadow(var(--grayShadow));
 
     /* OVERRIDING BOOTSTRAP */
     --bs-navbar-toggler-focus-width: 0;

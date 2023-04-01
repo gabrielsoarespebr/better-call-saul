@@ -14,7 +14,7 @@ export const Header = () => {
                     <Navbar.Toggle className={`${style.navIcon}`} aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto fw-bold">
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#about">Sobre o Saul</Nav.Link>
                             <Nav.Link href="#link">Link</Nav.Link>
                             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
