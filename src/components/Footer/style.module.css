@@ -1,0 +1,11 @@
+.others img{
+    height: 16vh;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.others img:hover {
+    filter: drop-shadow(white 0 0 10px);
+}

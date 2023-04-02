@@ -17,4 +17,5 @@
 body {
     background-color: var(--blackLight);
     font-family: 'Primer Preschoolers', sans-serif;
+    color: white;
 }
