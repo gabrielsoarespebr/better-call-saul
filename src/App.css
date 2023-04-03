@@ -1,6 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/primer-preschoolers');
 
 :root {
+    --grayLight: #dcd6d6;
     --grayDark: rgb(63, 63, 63);
     --grayShadow: var(--grayDark) 0 0 2px;
 
