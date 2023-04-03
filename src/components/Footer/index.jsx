@@ -5,7 +5,7 @@ export function Footer() {
         <footer className='d-flex justify-content-between gap-1 text-black lh-1'>
             <div className={style.speechBubble}>
                 <p>E aí, pessoal!? Sou o melhor advogado que vocês podem encontrar em Albuquerque: Saul Goodman!</p>
-                <p>Tô aqui pra falar de um cara tão bom quanto eu, o gênio que criou essa maravilha de site que vocês tão navegando agora mesmo. Eu desconfio que ele seja mais um daqueles hackers que em breve será preso pelo FBI, mas olha, tenho que admitir, tô impressionado com o trabalho dele!</p>
+                <p>Tô aqui pra falar de um cara tão bom quanto eu, o gênio que criou essa maravilha de site que vocês estão navegando agora mesmo. Eu desconfio que ele seja mais um daqueles hackers que em breve será pego pelo FBI, mas olha, tenho que admitir, tô impressionado com o trabalho dele!</p>
                 <div className="d-flex justify-content-around gap-3">
                     <div className="col-5 text-center">
                         <p>Contrate-o antes que ele seja preso:</p>
