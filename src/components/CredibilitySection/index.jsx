@@ -11,10 +11,6 @@ export const CredibilitySection = () => {
         }, 1)
     })
 
-    // while (count < target) {
-    //     setTimeout(()=>{count += 1;},200) 
-    // }
-
     return (
         <section className={`d-flex justify-content-around py-3 ${style.section}`}>
             <div className={`col-2 text-center ${style.text}`}>
