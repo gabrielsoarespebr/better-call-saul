@@ -8,7 +8,7 @@ export const CredibilitySection = () => {
     useEffect(() => {
         setTimeout(() => {
             if (count < target) setCount(count + 1);
-        }, 1)
+        }, 0)
     })
 
     return (
