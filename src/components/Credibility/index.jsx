@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import style from "./style.module.css"
 
-export const CredibilitySection = () => {
+export const Credibility = () => {
     const [count, setCount] = useState(0);
     const target = 3000;
 
