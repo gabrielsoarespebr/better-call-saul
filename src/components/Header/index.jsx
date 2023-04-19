@@ -14,19 +14,10 @@ export const Header = () => {
                     <Navbar.Toggle className={`${style.navIcon}`} aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto fw-bold">
-                            <Nav.Link href="#about">Sobre o Saul</Nav.Link>
-                            <Nav.Link href="#link">Link</Nav.Link>
-                            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
-                                    Another action
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">
-                                    Separated link
-                                </NavDropdown.Item>
-                            </NavDropdown>
+                            <Nav.Link href="#about">Sobre</Nav.Link>
+                            <Nav.Link href="#attest">Depoimentos</Nav.Link>
+                            <Nav.Link href="#contact">Contato</Nav.Link>
+                            <Nav.Link href="#gallery">Galeria</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
