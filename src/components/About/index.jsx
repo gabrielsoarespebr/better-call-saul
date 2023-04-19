@@ -1,14 +1,31 @@
-import style from "./style.module.css"
+import { LawService } from "../LawService";
 
 export const About = () => {
-    return (
-        <section id="about" className="d-flex justify-content-between gap-2">
-            <iframe className="m-auto my-4" width="560" height="315" src="https://www.youtube.com/embed/CQx0k1dyuBo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            <a href={"http://bettercallsaul.amc.com"} target="_blank" className={`col-3 d-flex flex-column justify-content-center text-decoration-none ${style.btnGroup}`}>
-                <img src={"./src/assets/images/SaulGoodmanPhone.png"} alt="Saul Goodman on Phone" />
-                <p className={style.btnText}>É MELHOR LIGAR PARA O SAUL!</p>
-            </a>
+    const emphasisText = {
+        backgroundColor: 'var(--redLight)',
+        color: 'var(--yellowLight)',
+        textShadow: 'var(--blackShadow)',
 
+        fontSize: '130%',
+        padding: '.5%'
+    };
+
+    return (
+        <section id="about" style={{ height: "100vh" }} className="d-flex justify-content-between gap-4">
+            <img src={"./src/assets/images/SaulGoodmanSide.png"} alt="Saul Goodman" />
+            <div style={{ fontSize: "110%" }} className="m-5 align-self-center">
+                <h2 className="mb-4">Sobre Saul Goodman</h2>
+                <p>Com a carreira jurídica iniciada na Defensoria Pública de Cook County, tornou-se conhecido pelo seu jeito eficaz e não convencional de advogar, visando <span style={emphasisText}>prevenção e remediação de danos</span>.</p>
+                <p>Hoje, seu escritório é referência na arte de defender, com <span style={emphasisText}>experiência comprovada em diversas áreas do Direito</span> e atendimento a uma <span style={emphasisText}>vasta gama de clientes</span>, dos mais abastados aos menos favorecidos.</p>
+                <p>Dentre os serviços mais procurados, estão:</p>
+                <ul style={{ height: "10vh" }} className="d-flex   list-unstyled">
+                    <LawService serviceIcon={"./src/assets/icons/servicesDivorce.png"} serviceName="Divórcio" />
+                    <LawService serviceIcon={"./src/assets/icons/servicesDamage.png"} serviceName="Dano moral e material" />
+                    <LawService serviceIcon={"./src/assets/icons/servicesTaxes.png"} serviceName="Questões fiscais" />
+                    <LawService serviceIcon={"./src/assets/icons/servicesDrugs.png"} serviceName="Problemas com drogas" />
+
+                </ul>
+            </div>
         </section>
     )
 }
