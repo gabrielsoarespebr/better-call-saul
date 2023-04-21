@@ -41,7 +41,7 @@ export function Footer() {
                     </div>
                 </div>
             </div>
-            <img className={`col-3 ${style.saulSpeaking}`} src={"./src/assets/images/SaulGoodmanOnDesk.png"} alt="Saul Goodman On Desk" />
+            <img className={`col-3 mt-3 ${style.saulSpeaking}`} src={"./src/assets/images/SaulGoodmanOnDesk.png"} alt="Saul Goodman On Desk" />
         </footer>
     )
 }
