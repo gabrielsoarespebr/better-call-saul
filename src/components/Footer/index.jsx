@@ -1,4 +1,8 @@
 import style from "./style.module.css"
+import iconLinkedin from '../../assets/icons/LinkedinCircle.png'
+import iconGithub from '../../assets/icons/GithubCircle.png'
+import iconSaveWalterWhite from '../../assets/icons/SaveWalterWhite.png'
+import iconLosPollosHermanos from '../../assets/icons/LosPollosHermanos.png'
 
 export function Footer() {
     return (
@@ -12,12 +16,12 @@ export function Footer() {
                         <ul className={`list-unstyled d-flex justify-content-center gap-3 m-0 ${style.btnRedirect}`}>
                             <li>
                                 <a href="https://www.linkedin.com/in/gabrielsoarespebr/" target="_blank">
-                                    <img src={"./src/assets/icons/LinkedinCircle.png"} alt="Gabriel Soares - LinkedIn" title="Gabriel Soares - LinkedIn" />
+                                    <img src={iconLinkedin} alt="Gabriel Soares - LinkedIn" title="Gabriel Soares - LinkedIn" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/gabrielsoarespebr/better-call-saul" target="_blank">
-                                    <img src={"./src/assets/icons/GithubCircle.png"} alt="Gabriel Soares - Github" title="Gabriel Soares - Github" />
+                                    <img src={iconGithub} alt="Gabriel Soares - Github" title="Gabriel Soares - Github" />
                                 </a>
                             </li>
                             <li></li>
@@ -28,12 +32,12 @@ export function Footer() {
                         <ul className={`list-unstyled d-flex justify-content-center gap-3 m-0 ${style.btnRedirect}`}>
                             <li>
                                 <a href="http://www.savewalterwhite.com" target="_blank">
-                                    <img src={"./src/assets/icons/SaveWalterWhite.png"} alt="Save Walter White" title="Save Walter White" />
+                                    <img src={iconSaveWalterWhite} alt="Save Walter White" title="Save Walter White" />
                                 </a>
                             </li>
                             <li>
                                 <a href="http://www.lphishiring.com" target="_blank">
-                                    <img src={"./src/assets/icons/LosPollosHermanos.png"} alt="Los Pollos Hermanos" title="Los Pollos Hermanos" />
+                                    <img src={iconLosPollosHermanos} alt="Los Pollos Hermanos" title="Los Pollos Hermanos" />
                                 </a>
                             </li>
                             <li></li>

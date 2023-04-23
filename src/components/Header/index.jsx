@@ -1,12 +1,15 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import style from "./style.module.css"
+import style from './style.module.css';
+import saulLogo from '../../assets/images/BetterCallSaulLogo.png';
+import saulArt from '../../assets/images/SaulGoodmanArt.png';
+
 export const Header = () => {
     return (
         <header className="d-flex justify-content-around">
-            <img className={`col-5 ms-3 ${style.logo}`} src={"./src/assets/images/BetterCallSaulLogo.png"} alt="Better Call Saul Logo" />
-            <img className="col-5" src={"./src/assets/images/SaulGoodmanArt.png"} alt="Saul Goodman Art" />
+            <img className={`col-5 ms-3 ${style.logo}`} src={saulLogo} alt="Better Call Saul Logo" />
+            <img className="col-5" src={saulArt} alt="Saul Goodman Art" />
 
             <Navbar expand="lg">
                 <Container>

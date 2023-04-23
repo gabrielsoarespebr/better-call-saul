@@ -2,6 +2,7 @@ import { useState } from "react"
 import { Form } from "../Form"
 import style from "./style.module.css"
 import { GoAlert, GoLaw } from "react-icons/go"
+import saulOnPhone from '../../assets/images/SaulGoodmanPhone.png'
 
 export const Contact = () => {
     const [displayBlinkBoolean, setDisplayBlinkBoolean] = useState(true);
@@ -14,7 +15,7 @@ export const Contact = () => {
                 <Form />
             </div>
             <a href={"http://bettercallsaul.amc.com"} target="_blank" className={`col-3 d-flex flex-column justify-content-center text-decoration-none ${style.btnGroup}`}>
-                <img src={"./src/assets/images/SaulGoodmanPhone.png"} alt="Saul Goodman on Phone" />
+                <img src={saulOnPhone} alt="Saul Goodman on Phone" />
                 <p className={style.btnText}>É MELHOR LIGAR PARA O SAUL!</p>
             </a>
         </section>
