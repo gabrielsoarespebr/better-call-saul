@@ -12,8 +12,8 @@ export const Attest = () => {
 
     return (
         <Carousel id="attest" className={style.carousel}>
-            {people.map(person => {
-                return <Carousel.Item>
+            {people.map((person, key) => {
+                return <Carousel.Item key={key}>
                     <img
                         src={person.photo}
                         alt={person.name}
