@@ -1,0 +1,8 @@
+.container {
+    background: linear-gradient(90deg, var(--redDark) 40%, var(--redLight));
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
