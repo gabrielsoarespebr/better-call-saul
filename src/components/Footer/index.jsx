@@ -3,6 +3,7 @@ import iconLinkedin from '../../assets/icons/LinkedinCircle.png'
 import iconGithub from '../../assets/icons/GithubCircle.png'
 import iconSaveWalterWhite from '../../assets/icons/SaveWalterWhite.png'
 import iconLosPollosHermanos from '../../assets/icons/LosPollosHermanos.png'
+import saulOnDesk from '../../assets/images/SaulGoodmanOnDesk.png'
 
 export function Footer() {
     return (
@@ -45,7 +46,7 @@ export function Footer() {
                     </div>
                 </div>
             </div>
-            <img className={`col-3 mt-3 ${style.saulSpeaking}`} src={"./src/assets/images/SaulGoodmanOnDesk.png"} alt="Saul Goodman On Desk" />
+            <img className={`col-3 mt-3 ${style.saulSpeaking}`} src={saulOnDesk} alt="Saul Goodman On Desk" />
         </footer>
     )
 }
