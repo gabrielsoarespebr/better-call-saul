@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Form } from "../Form"
 import style from "./style.module.css"
 import { GoAlert, GoLaw } from "react-icons/go"
@@ -6,7 +6,14 @@ import saulOnPhone from '../../assets/images/SaulGoodmanPhone.png'
 
 export const Contact = () => {
     const [displayBlinkBoolean, setDisplayBlinkBoolean] = useState(true);
-    setInterval(() => setDisplayBlinkBoolean(!displayBlinkBoolean), 3000)
+    useEffect(() => {
+        const timer = setInterval(() =>
+            setDisplayBlinkBoolean(displayBlinkBoolean => !displayBlinkBoolean), 3000
+        );
+
+        return () => { clearInterval(timer) };
+    }, [])
+
 
     return (
         <section id="contact" style={{ height: "100vh" }} className="d-flex justify-content-between align-items-center gap-2">
