@@ -6,7 +6,7 @@ export const Attest = () => {
     const [people, setPeople] = useState([]);
 
     async function fetchPeople() {
-        const response = await fetch("https://mocki.io/v1/73df076f-29e9-49aa-b838-426fc4d99ebb");
+        const response = await fetch("https://mocki.io/v1/047c2ef9-b954-41be-88d4-b3b3aa346699");
         setPeople(await response.json());
     }
 
