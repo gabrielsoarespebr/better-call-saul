@@ -17,8 +17,8 @@ export const Contact = () => {
 
     return (
         <section id="contact" style={{ height: "100vh" }} className="d-flex justify-content-center justify-content-sm-between align-items-center gap-2">
-            <div className="text-center col-9">
-                {(displayBlinkBoolean) ? <h3 className="fs-4" style={{ color: "var(--yellowLight)" }}><GoAlert /> NÃO DEIXE SEU DIREITO NA MÃO DE AMADORES! <GoAlert /></h3> : <h3 className="fs-4" ><GoLaw /> ENTRE EM CONTATO COM UM ESPECIALISTA AGORA! <GoLaw /></h3>}
+            <div className="text-center col-8">
+                {(displayBlinkBoolean) ? <h3 className="fs-4" style={{ color: "var(--yellowLight)" }}><GoAlert /> NÃO DEIXE SEU DIREITO NA MÃO DE AMADORES <GoAlert /></h3> : <h3 className="fs-4" ><GoLaw /> ENTRE EM CONTATO COM UM ESPECIALISTA AGORA <GoLaw /></h3>}
                 <Form />
             </div>
             <a href={"http://bettercallsaul.amc.com"} target="_blank" className={`col-3 d-none d-sm-flex flex-column justify-content-center text-decoration-none ${style.btnGroup}`}>
