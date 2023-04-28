@@ -33,13 +33,13 @@ export const Form = () => {
                 </select>
             </div>
 
-            <textarea name="message" id="message" cols="50" rows="5" style={{ resize: 'none' }} placeholder="Insira aqui sua mensagem"></textarea>
+            <textarea name="message" id="message" cols="40" rows="5" style={{ resize: 'none' }} placeholder="Insira aqui sua mensagem"></textarea>
             <div>
                 <label htmlFor="urgency">É caso de vida ou morte?</label>
                 <input type="radio" name="urgency" id="highPriority" value="0" /><label htmlFor="highPriority">Sim</label>
                 <input type="radio" name="urgency" id="lowPriority" value="1" /><label htmlFor="highPriority">Não</label>
             </div>
-            <div>
+            <div className="d-flex justify-content-center">
                 <input type="checkbox" name="terms" id="terms" />
                 <label htmlFor="terms">Concordo que Saul Goodman é o melhor advogado de todos os tempos.</label>
             </div>

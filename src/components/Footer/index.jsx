@@ -7,7 +7,7 @@ import saulOnDesk from '../../assets/images/SaulGoodmanOnDesk.png'
 
 export function Footer() {
     return (
-        <footer className='d-flex justify-content-between gap-1 text-black lh-1'>
+        <footer className='d-sm-flex justify-content-between gap-1 text-black lh-1'>
             <div className={style.speechBubble}>
                 <p>Olá, crianças! Aqui quem fala é o melhor advogado que vocês podem encontrar em Albuquerque: Saul Goodman!</p>
                 <p>Tô aqui pra falar de um cara tão bom quanto eu, o garoto que fez essa maravilha de site que vocês estão navegando agora mesmo. Eu desconfio que ele seja mais um daqueles hackers que em breve será pego pelo FBI e escreverá um livro na prisão. Mas olha, tenho que admitir, o que ele faz é impressionante!</p>

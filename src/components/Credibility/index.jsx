@@ -13,17 +13,17 @@ export const Credibility = () => {
 
     return (
         <section className={`d-flex justify-content-around py-3 ${style.section}`}>
-            <div className={`col-2 text-center ${style.text}`}>
-                <div className="display-3">10+</div>
-                <div className="fs-4">ANOS DE EXPERIÊNCIA</div>
+            <div className={`col-3 text-center ${style.text}`}>
+                <div className={style.bigFontSize}>10+</div>
+                <div>ANOS DE EXPERIÊNCIA</div>
             </div>
-            <div className={`col-2 text-center ${style.text}`}>
-                <div className="display-3"><span>{count}</span>+</div>
-                <div className="fs-4">CLIENTES ATENDIDOS</div>
+            <div className={`col-3 text-center ${style.text}`}>
+                <div className={style.bigFontSize}><span>{count}</span>+</div>
+                <div>CLIENTES ATENDIDOS</div>
             </div>
-            <div className={`col-2 text-center ${style.text}`}>
-                <div className="display-3">5&#9733;</div>
-                <div className="fs-4">AVALIAÇÕES DO GOOGLE</div>
+            <div className={`col-3 text-center ${style.text}`}>
+                <div className={style.bigFontSize}>5&#9733;</div>
+                <div>AVALIAÇÕES DO GOOGLE</div>
             </div>
         </section>
     )
